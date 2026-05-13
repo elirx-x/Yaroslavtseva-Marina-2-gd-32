@@ -671,7 +671,7 @@ details:active::before {
   border-radius: 50%;
   color: var(--ink);
   background:
-    url("иконка1.png") center / cover no-repeat,
+    url("images/иконка1.png") center / cover no-repeat,
     linear-gradient(180deg, rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.16)),
     rgba(255, 255, 255, 0.2);
   box-shadow:
@@ -682,21 +682,21 @@ details:active::before {
 
 .blog-item:nth-child(2) > div:first-child::before {
   background:
-    url("иконка2.png") center / cover no-repeat,
+    url("images/иконка2.png") center / cover no-repeat,
     linear-gradient(180deg, rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.16)),
     rgba(255, 255, 255, 0.2);
 }
 
 .blog-item:nth-child(3) > div:first-child::before {
   background:
-    url("иконка3.png") center / cover no-repeat,
+    url("images/иконка3.png") center / cover no-repeat,
     linear-gradient(180deg, rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.16)),
     rgba(255, 255, 255, 0.2);
 }
 
 .blog-item:nth-child(4) > div:first-child::before {
   background:
-    url("иконка4.png") center / cover no-repeat,
+    url("images/иконка4.png") center / cover no-repeat,
     linear-gradient(180deg, rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.16)),
     rgba(255, 255, 255, 0.2);
 }
@@ -1164,7 +1164,7 @@ details::before {
   border-radius: 50%;
   text-align: center;
   background:
-    url("значки1.png") center / cover no-repeat;
+    url("images/значки1.png") center / cover no-repeat;
   box-shadow:
     var(--glass-line-glow),
     inset 0 2px 2px rgba(255, 255, 255, 0.96),
@@ -1187,11 +1187,11 @@ details::before {
 
 .flow-step--middle {
   margin-top: 54px;
-  background-image: url("значки2.png");
+  background-image: url("images/значки2.png");
 }
 
 .flow-step--top:last-child {
-  background-image: url("значки3.png");
+  background-image: url("images/значки3.png");
 }
 
 .flow-step::before {
