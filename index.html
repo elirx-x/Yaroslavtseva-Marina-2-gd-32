@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пиксель - анимационная студия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Пиксель, на главную">
+        <img class="brand__mark" src="images/логотип.png" alt="" />
+        <span class="brand__name">Пиксель</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="about.html">О студии</a>
+        <a href="projects.html">Проекты</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="vacancies.html">Вакансии</a>
+        <a href="blog.html">Блог</a>
+        <a class="nav-pill" href="services.html">Услуги</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="about">
+        <p class="studio-title">пиксель</p>
+
+        <div class="stats" aria-label="Ключевые факты о студии">
+          <article>
+            <strong>2D</strong>
+            <span>анимация</span>
+          </article>
+          <article>
+            <strong>5</strong>
+            <span>наград</span>
+          </article>
+          <article>
+            <strong>8</strong>
+            <span>проектов</span>
+          </article>
+        </div>
+
+        <p class="intro">
+          Студия Пиксель - уютная 2D мастерская, создающая художественные и
+          коммерческие анимации высокого качества. Мы рассказываем истории,
+          которые хочется пересматривать, и превращаем идеи в выразительные
+          визуальные миры.
+        </p>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-heading">
+          <h1>Проекты</h1>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="image-slot">
+              <img src="images/лунный мультфильм.png" alt="Лунный зонтик" />
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="image-slot">
+              <img src="images/секрет мультфильм.png" alt="Секрет бумажного кораблика" />
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="image-slot">
+              <img src="images/паровозик мультфильм.png" alt="Паровозик из облаков" />
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="image-slot">
+              <img src="images/котенок мультфильм.png" alt="Котенок и город часов" />
+            </div>
+          </article>
+        </div>
+
+        <a class="button" href="projects.html">Еще</a>
+      </section>
+
+      <section class="section blog" id="blog">
+        <div class="section-heading">
+          <h1>Блог</h1>
+        </div>
+
+        <div class="blog-list">
+          <article class="blog-item">
+            <div>
+              <h2>Новая подборка концепт-артов уже в блоге</h2>
+              <p>
+                В разделе новостей появились свежие наброски, цветовые
+                скрипты и первые варианты персонажей будущих проектов.
+              </p>
+            </div>
+            <div class="image-slot image-slot--small">
+              <img src="images/блог1.png" alt="Новая подборка концепт-артов" />
+            </div>
+          </article>
+
+          <article class="blog-item blog-item--reverse">
+            <div>
+              <h2>Как создается персонаж: от первого наброска до образа</h2>
+              <p>
+                Рассказываем, как в студии рождаются герои мультфильмов:
+                от простой идеи до финального выразительного силуэта.
+              </p>
+            </div>
+            <div class="image-slot image-slot--small">
+              <img src="images/блог2.png" alt="Как создается персонаж" />
+            </div>
+          </article>
+
+          <article class="blog-item">
+            <div>
+              <h2>Мы начали работу над новым 2D-мультфильмом</h2>
+              <p>
+                Делимся первыми деталями о проекте, команде и атмосфере
+                истории, которую скоро покажем зрителям.
+              </p>
+            </div>
+            <div class="image-slot image-slot--small">
+              <img src="images/блог3.png" alt="Новый 2D-мультфильм" />
+            </div>
+          </article>
+
+          <article class="blog-item blog-item--reverse">
+            <div>
+              <h2>Закулисье студии: день из жизни аниматора</h2>
+              <p>
+                Небольшой материал о рабочих сценах, раскадровках,
+                обсуждениях и спокойной магии ежедневной анимации.
+              </p>
+            </div>
+            <div class="image-slot image-slot--small">
+              <img src="images/блог4.png" alt="Закулисье студии" />
+            </div>
+          </article>
+        </div>
+
+        <a class="button blog-more" href="blog.html">Читать все статьи</a>
+      </section>
+
+      <section class="section faq" aria-labelledby="faq-title">
+        <div class="section-heading">
+          <h1 id="faq-title">FAQ</h1>
+          <p>Часто задаваемые вопросы</p>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>Где почитать ваши комиксы и посмотреть мультфильмы?</summary>
+            <p>На отдельных страницах проектов и в официальных соцсетях студии.</p>
+          </details>
+          <details>
+            <summary>Я хочу работать у вас!</summary>
+            <p>Отклик можно отправить через страницу вакансий или на HR-почту.</p>
+          </details>
+          <details>
+            <summary>Когда была создана студия?</summary>
+            <p>Студия выросла из небольшой творческой команды и постепенно стала полноценной мастерской.</p>
+          </details>
+          <details>
+            <summary>На что уходят деньги?</summary>
+            <p>На работу команды, производство анимации, звук, монтаж, продвижение и поддержку проектов.</p>
+          </details>
+          <details>
+            <summary>Какие услуги вы предоставляете?</summary>
+            <p>2D-анимация, персонажный дизайн, раскадровка, клипы, рекламные ролики и заставки.</p>
+          </details>
+          <details>
+            <summary>Можно предложить свою идею?</summary>
+            <p>Да, для партнерских предложений предусмотрена отдельная почта.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="contacts" id="contacts">
+      <h1>Контакты</h1>
+      <div class="socials" aria-label="Социальные сети">
+        <a href="#" aria-label="Telegram"><img src="images/тг.png" alt="" /></a>
+        <a href="#" aria-label="YouTube"><img src="images/ютуб.png" alt="" /></a>
+        <a href="#" aria-label="Instagram"><img src="images/инста.png" alt="" /></a>
+        <a href="#" aria-label="Boosty"><img src="images/бусти.png" alt="" /></a>
+      </div>
+      <address>
+        <a href="mailto:hr.pixel@tv">HR-служба pixel@tv</a>
+        <a href="mailto:bug.pixel@tv">Сайт / баги pixel@tv</a>
+        <a href="mailto:info.pixel@tv">Другие вопросы pixel@tv</a>
+        <a href="mailto:partner.pixel@tv">Партнерство pixel@tv</a>
+        <a href="mailto:pr.pixel@tv">PR-служба pixel@tv</a>
+      </address>
+    </footer>
+  </body>
+</html>
